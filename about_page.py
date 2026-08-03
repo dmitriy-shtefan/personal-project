@@ -15,7 +15,7 @@ def show_about_page():
             "Застосунок для збереження контактів. Користувач може додавати, "
             "видаляти, шукати і фільтрувати контакти."
         )
-        st.write("Технології: Python, Streamlit, JSON, pandas")
+        st.write("Технології: Python, Streamlit, JSON, pandas.")
 
     with st.container(border=True):
         st.subheader("Мої улюблені місця")
@@ -23,7 +23,7 @@ def show_about_page():
             "Застосунок для перегляду добірки пам'ятних і цікавих локацій. "
             "Допомагає зберегти спогади про подорожі і планувати майбутні пригоди."
         )
-        st.write("Технології: Python, Streamlit, HTML, CSS")
+        st.write("Технології: Python, Streamlit, HTML, CSS.")
 
     st.subheader("Мої Контакти")
     with st.container(border=True):
