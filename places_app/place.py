@@ -21,8 +21,8 @@ class Place:
 
     def to_html(self):
         return f"""
-            <article class="places-card">
-                <img class="places-image" 
+            <article class="place-card">
+                <img class="place-image" 
                      src="{self.image_url}" 
                      alt="{self.name}" />
                 
